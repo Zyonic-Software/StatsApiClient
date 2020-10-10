@@ -11,5 +11,5 @@ repositories {
 }
 
 dependencies {
-    implementation("com.squareup.okhttp3:okhttp:4.8.1")
+    implementation 'com.github.AzraAnimating:JSONBuilder:1.0.0'
 }
