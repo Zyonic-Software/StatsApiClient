@@ -23,6 +23,10 @@ public class StatsApiClient {
         return uuid;
     }
 
+    public void closeConnection() throws IOException {
+        this.liveWriter.closeConnection();
+    }
+
     public void openConnection(String address, int port) throws IOException {
         this.liveWriter.startConnection(address, port);
     }
