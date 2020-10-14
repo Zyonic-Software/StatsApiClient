@@ -11,5 +11,5 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.AzraAnimating:JSONBuilder:1.0.0'
+    implementation 'com.github.AzraAnimating:JSONBuilder:1.1.0'
 }
